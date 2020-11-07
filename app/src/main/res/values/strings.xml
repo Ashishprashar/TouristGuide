@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="topplaces">Top Places</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="historical">Historical Places</string>
+    <string name="demo">Sukhana Lake</string>
+</resources>

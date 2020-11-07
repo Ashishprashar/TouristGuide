@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+     android:layout_height="match_parent" android:layout_width="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:src="@drawable/map"
+        android:id="@+id/map"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="28dp"/>
+
+    <Button
+        android:id="@+id/top_places_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="24dp"
+        android:text="@string/topplaces" />
+
+    <Button
+        android:id="@+id/restaurants"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_places_button"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:text="@string/restaurants" />
+    <Button
+        android:id="@+id/historical_places_buttons"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/restaurants"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="24dp"
+        android:text="@string/historical" />
+
+
+</RelativeLayout></ScrollView>
